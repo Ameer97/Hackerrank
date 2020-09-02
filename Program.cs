@@ -6,7 +6,7 @@ using System.Linq;
 namespace Hackerrank
 {
     class Program
-    {
+    { 
         static int sockMerchant(int n, int[] ar)
         {
             var result = 0;
