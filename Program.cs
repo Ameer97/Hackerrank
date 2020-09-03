@@ -11,7 +11,9 @@ namespace Hackerrank
 
         static void Main(string[] args)
         {
-            SockMerchantProblem.main();
+            //CountingValleysProblem.main();
+            //SockMerchantProblem.main();
+            JumpingontheCloudsProblem.main();
         }
     }
 }
