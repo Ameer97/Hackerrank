@@ -13,7 +13,8 @@ namespace Hackerrank
         {
             //CountingValleysProblem.main();
             //SockMerchantProblem.main();
-            JumpingontheCloudsProblem.main();
+            //JumpingontheCloudsProblem.main();
+            EqualizetheArray.main();
         }
     }
 }
