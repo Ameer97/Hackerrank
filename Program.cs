@@ -1,12 +1,9 @@
 ﻿using Hackerrank.ProblemClasses;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 
 namespace Hackerrank
 {
-    class Program
+    public class Program
     {
 
         static void Main(string[] args)
@@ -15,7 +12,12 @@ namespace Hackerrank
             //SockMerchantProblem.main();
             //JumpingontheCloudsProblem.main();
             //EqualizetheArray.main();
-            RepeatedString.main();
+            //RepeatedString.main();
+            _2D_Array_DS.main();
+        }
+        public static string Save(string fileName)
+        {
+            return Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + fileName + ".txt";
         }
     }
 }
