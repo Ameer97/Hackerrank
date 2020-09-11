@@ -13,7 +13,8 @@ namespace Hackerrank
             //JumpingontheCloudsProblem.main();
             //EqualizetheArray.main();
             //RepeatedString.main();
-            _2D_Array_DS.main();
+            //_2D_Array_DS.main();
+            LeftRotation.main();
         }
         public static string Save(string fileName)
         {
