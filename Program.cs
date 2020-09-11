@@ -14,7 +14,8 @@ namespace Hackerrank
             //CountingValleysProblem.main();
             //SockMerchantProblem.main();
             //JumpingontheCloudsProblem.main();
-            EqualizetheArray.main();
+            //EqualizetheArray.main();
+            RepeatedString.main();
         }
     }
 }
