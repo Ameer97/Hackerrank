@@ -14,7 +14,8 @@ namespace Hackerrank
             //EqualizetheArray.main();
             //RepeatedString.main();
             //_2D_Array_DS.main();
-            LeftRotation.main();
+            //LeftRotation.main();
+            NewYearChaos.main();
         }
         public static string Save(string fileName)
         {
