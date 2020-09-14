@@ -15,8 +15,8 @@ namespace Hackerrank.ProblemClasses
             {
                 if (q[i] - (i + 1) > 2)
                     return "Too chaotic";
-                
-                for (int j = Math.Max(0, q[i] - 2); j < i; j++)
+
+                for (int j = Math.Max(0, q[i] - 2); j < i; j++) 
                 {
                     if (q[j] > q[i]) 
                         steps++;
