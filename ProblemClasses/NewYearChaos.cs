@@ -10,18 +10,17 @@ namespace Hackerrank.ProblemClasses
     {
         static string minimumBribes(int[] q)
         {
+            //if he bribes more that 2 person
+            if (q.Where((person, index) => person - (index + 1) > 2).Any())
+                return "Too chaotic";
+
+            //this calculate home many persons (more than his value) bribe him (until his current location)
             int steps = 0;
             for (int i = q.Length - 1; i >= 0; i--)
-            {
-                if (q[i] - (i + 1) > 2)
-                    return "Too chaotic";
-
-                for (int j = Math.Max(0, q[i] - 2); j < i; j++) 
-                {
-                    if (q[j] > q[i]) 
+                for (int j = Math.Max(0, q[i] - 2); j < i; j++)
+                    if (q[j] > q[i])
                         steps++;
-                }
-            }
+
             return steps.ToString();
         }
 
